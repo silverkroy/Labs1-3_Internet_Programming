@@ -1,0 +1,42 @@
+﻿.title{
+    position:relative;
+    display:block;
+    text-align:center;
+    font-family:Tahoma;
+    font-size:26pt;
+    font-weight:bold;
+}
+
+.small_title{ /*Расположение блока с маленьким названием*/
+    position:relative;
+    display:block;
+    text-align:right;
+    font-family:Arial;
+    font-size:12pt;
+    color:#000000;
+    font-weight:bold;
+}
+
+.article{
+    position:relative;
+    display:block;
+    font-family:Tahoma;
+    font-size:18pt;
+}
+
+.article_bold{ /*Название жирным шрифтом*/
+    font-weight:bold;
+}
+
+.article_italic{ /*Название italic шрифтом*/
+    font-style:italic;
+}
+
+.article_strikethrough{ /*Название c перечеркнутым шрифтом*/
+    text-decoration:line-through;
+}
+    
+.article_underlined{ /*Название с подчеркиванием*/
+    text-decoration:underline;
+	font-size:16pt;
+}
